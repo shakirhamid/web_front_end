@@ -3,15 +3,15 @@ header {
   text-align: center;
   margin-top: 20px;
 }
-body{
-    background-image: url("../img/freepik__adjust__61190.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+body {
+  background-image: url("../img/freepik__adjust__61190.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .title {
@@ -21,6 +21,7 @@ body{
   background-color: rgba(206, 80, 7, 0.525);
   padding: 10px;
   border-radius: 5px;
+  margin: 5px;
 }
 
 .nav-links {
@@ -31,7 +32,7 @@ body{
   background-color: rgba(191, 89, 22, 0.5);
   padding: 10px;
   border-radius: 5px;
-  margin-top: 20px;
+  margin: 0;
 }
 
 .nav-links li {
@@ -48,3 +49,54 @@ body{
   font-weight: bold;
 }
 
+.intro {
+  display: inline-flex;
+  padding: 1px;
+  background-color: rgba(219, 219, 219, 0.37);
+  color: white;
+  width: 95%;
+ 
+  border-radius: 5px;
+  text-align: right; /* Align text to the right */
+}
+
+.intro h3 {
+  padding: 10px;
+  height: 100%;
+  justify-content: center;
+  text-align: left;
+}
+.intro p {
+  size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.Topics {
+  display: inline-flex;
+  padding: 1px;
+  text-align: right; 
+}
+
+.Topics_1 {
+  border: 1px solid black;
+  background-color: rgba(219, 219, 219, 0.37);
+  width: 200px;
+}
+
+.Topics_2 {
+  border: 1px solid black;
+  background-color: rgba(219, 219, 219, 0.37);
+  width: 200px;
+}
+.Topics_3 {
+  border: 1px solid black;
+  background-color: rgba(219, 219, 219, 0.37);
+  width: 200px;
+}.Topics_4 {
+  border: 1px solid black;
+  background-color: rgba(219, 219, 219, 0.37);
+  width: 200px;
+}
+.call{
+  background-color: rgba(255, 255, 255, 0.469);
+}
