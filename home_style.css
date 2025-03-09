@@ -1,27 +1,35 @@
 header {
+  display: block;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin: 0px;
 }
 body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.HOME {
+  border: none;
   background-image: url("../img/freepik__adjust__61190.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  background-attachment: scroll;
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  margin-bottom: 0; /* Ensure no margin at the bottom */
 }
 
 .title {
-  font-size: 30px;
+  font-size: 2rem; /* Use relative units for responsive design */
   font-weight: bold;
   color: white;
   background-color: rgba(206, 80, 7, 0.525);
   padding: 10px;
   border-radius: 5px;
-  margin: 5px;
+  margin: 0px;
 }
 
 .nav-links {
@@ -39,13 +47,14 @@ body {
   list-style: none;
   padding: 18px 10px;
   cursor: pointer;
-  margin: 0 10px;
+  margin-left: 12.5%;
+  margin-right: 10%;
 }
 
 .nav-links li a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem; /* Use relative units for responsive design */
   font-weight: bold;
 }
 
@@ -55,7 +64,6 @@ body {
   background-color: rgba(219, 219, 219, 0.37);
   color: white;
   width: 95%;
- 
   border-radius: 5px;
   text-align: right; /* Align text to the right */
 }
@@ -65,38 +73,98 @@ body {
   height: 100%;
   justify-content: center;
   text-align: left;
+  font-size: 1.5rem; /* Use relative units for responsive design */
 }
+
 .intro p {
-  size: 20px;
+  font-size: 1rem; /* Use relative units for responsive design */
   padding: 10px;
   text-align: left;
 }
+
 .Topics {
   display: inline-flex;
   padding: 1px;
-  text-align: right; 
+  text-align: right;
 }
 
-.Topics_1 {
+.Topics_1,
+.Topics_2,
+.Topics_3,
+.Topics_4 {
   border: 1px solid black;
   background-color: rgba(219, 219, 219, 0.37);
   width: 200px;
 }
 
-.Topics_2 {
-  border: 1px solid black;
-  background-color: rgba(219, 219, 219, 0.37);
-  width: 200px;
-}
-.Topics_3 {
-  border: 1px solid black;
-  background-color: rgba(219, 219, 219, 0.37);
-  width: 200px;
-}.Topics_4 {
-  border: 1px solid black;
-  background-color: rgba(219, 219, 219, 0.37);
-  width: 200px;
-}
-.call{
+.call {
   background-color: rgba(255, 255, 255, 0.469);
+}
+
+.ClassicsDepartment {
+  background-color: blue; /* Ensure background color is set */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  margin-top: 0; /* Ensure no margin at the top */
+  margin-bottom: 0; /* Ensure no margin at the bottom */
+}
+
+.nav-links-cl {
+  display: inline-flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  background-color: rgba(191, 89, 22, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.nav-links-cl li {
+  list-style: none;
+  padding: 18px 10px;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-links-cl li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem; /* Use relative units for responsive design */
+  font-weight: bold;
+}
+
+.Topics_cl {
+  display:block ;
+  padding: 1px;
+  text-align:inherit;
+}
+
+.Topics_cl_1,
+.Topics_cl_2,
+.Topics_cl_3,
+.Topics_cl_4 {
+  border: 1px solid black;
+  background-color: rgba(219, 219, 219, 0.37);
+  width:auto;
+  margin: auto;
+}
+
+.Topics_cl_1 h3,
+.Topics_cl_2 h3,
+.Topics_cl_3 h3,
+.Topics_cl_4 h3 {
+  font-size: 1.25rem; /* Use relative units for responsive design */
+}
+
+.Topics_cl_1 p,
+.Topics_cl_2 p,
+.Topics_cl_3 p,
+.Topics_cl_4 p {
+  font-size: 1rem; /* Use relative units for responsive design */
+  padding: 10px;
+  text-align: left;
 }
